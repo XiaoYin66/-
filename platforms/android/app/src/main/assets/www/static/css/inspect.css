@@ -1,0 +1,148 @@
+#classPicstationTask {
+    border: #ccc 1px solid;
+  }
+  #classPicstation {
+    border: #ccc 1px solid;
+  }
+  #borderSelect {
+    border: #ccc 1px solid;
+  }
+  #textvalueMain {
+    height: 80px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+  }
+  .MainList {
+    /* border-bottom: 1px solid rgb(243, 243, 243); */
+    height: 40px;
+    display: flex;
+    /* align-items: center; */
+    align-content: center;
+    /* justify-content: center; */
+  }
+  .select-control-row {
+    padding: 8px 0;
+    color: #f1eff2;
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .flexGroupInspection {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    /* justify-content: center; */
+  
+    height: 40px;
+    /* align-content: center; */
+    align-items: center;
+  }
+  .nameNumber {
+    height: 40px;
+    /* line-height: 40px; */
+    display: flex;
+    flex-direction: row;
+  }
+  .addTitleBtn {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .flexHAOCAI {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .btnStylesAddress {
+    border: none;
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    background: #f1eff2;
+    margin-top: 2px;
+    margin-left: 5px;
+    outline: none;
+  }
+  .spanCenterContent {
+    display: flex;
+    height: 30px;
+    align-items: center;
+  }
+  #input {
+    /* widows: 100%; */
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    border: #ccc 1px solid;
+    padding: 0 5px;
+    /* width: 100%; */
+  }
+  #textvalueMain {
+    border: #ccc 1px solid;
+    outline: none;
+  }
+  .btnSizesty {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+  }
+  
+  /* 新增 */
+  .containerMain {
+    position: relative;
+    top: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .select select {
+    background: white;
+  }
+  .bottom {
+    /* margin-bottom: 30px; */
+  }
+  .flexSpace {
+    justify-content: space-between;
+  }
+  .flexDerect {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+  }
+  .paddingContainer {
+    padding: 10px;
+  }
+  .select {
+    border: none;
+  }
+  .btnSubmit {
+    background: #46c47d;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+  }
+  .bottomSubmit {
+    display: flex;
+    justify-content: center;
+  }
+  .inputTaskId {
+    border: 1px solid #ccc;
+  }

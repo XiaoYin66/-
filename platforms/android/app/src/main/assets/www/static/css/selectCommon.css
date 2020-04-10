@@ -1,0 +1,52 @@
+.select {
+    width: 100%;
+    text-align: center;
+  }
+  .select select {
+    width: 100%;
+    border-radius: 5px;
+    border: #ccc 1px solid;
+    outline: none;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .titleselect {
+    width: 30%;
+  }
+  .timeSelect {
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    height: 600px;
+  }
+  .queryBtn {
+    /* border-left: #4ed995 3px solid; */
+    border-bottom: #ccc 1px solid;
+  }
+  .btnBottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #4ed995;
+    height: 30px;
+    align-items: center;
+    color: white;
+  }
+  .btnBottom .left {
+    background: #ccc;
+    flex: 1;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btnBottom .right {
+    background: #4ed995;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 30px;
+    justify-content: center;
+  }

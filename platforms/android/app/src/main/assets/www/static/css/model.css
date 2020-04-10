@@ -1,0 +1,103 @@
+.select {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+}
+
+.select img {
+  width: 20px;
+  height: 20px;
+}
+
+.select select {
+  width: 100%;
+  border-radius: 5px;
+  border: #ccc 1px solid;
+  outline: none;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: white;
+}
+
+.titleselect {
+  width: 100px;
+  /* margin-bottom: 8px; */
+}
+
+.timeSelect {
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+  height: 600px;
+}
+
+.queryBtn {
+  /* border-left: #4ed995 3px solid; */
+  border-bottom: #ccc 1px solid;
+}
+
+.btnBottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #4ed995;
+  height: 30px;
+  align-items: center;
+  color: white;
+}
+
+.btnBottom .left {
+  background: #ccc;
+  flex: 1;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnBottom .right {
+  background: #4ed995;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 30px;
+  justify-content: center;
+}
+
+.input {
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 5px;
+  /* border: 1px solid #ccc; */
+  height: 30px;
+  background: white;
+  border: none;
+}
+
+.backOption {
+  background-color: red;
+  color: white;
+}
+.btnSubmit {
+  background: #46c47d;
+  height: 40px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96%;
+  margin-top: 10px;
+}
+.bottomSubmit {
+  display: flex;
+  justify-content: center;
+}

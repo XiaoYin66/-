@@ -1,0 +1,421 @@
+.center {
+    text-align: center;
+  }
+  .bottom {
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    border-top: rgb(134, 245, 167) 1px solid;
+    /* margin-right: 5px; */
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    text-align: right;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    background-color: #2196f3;
+    color: white;
+    /* height: 100%; */
+  }
+  #left {
+    position: relative;
+    left: 12px;
+    font-size: 20px;
+  }
+  #right {
+    position: relative;
+    right: -172px;
+  }
+  .homeImagHeader {
+    width: 100%;
+    height: auto;
+    color: rgb(89, 227, 231);
+    /* margin-top: -77px; */
+    /* background-image: url("../../static/img/home3.png"); */
+    /* margin-bottom: 20px; */
+    position: relative;
+  }
+  .homeImagHeader img {
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 10px rgb(235, 231, 231) solid;
+    padding-bottom: 20px;
+    padding-top: 12px;
+    background: white;
+  }
+  .nav div {
+    width: 25%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .nav div p {
+    margin: 0;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    background: white;
+  }
+  .updata {
+    color: #ccc;
+    position: absolute;
+    right: 13px;
+  }
+  .homeRun {
+    margin: 15px 0;
+    margin-left: 20px;
+    height: 30px;
+    border-left: #2196f3 6px solid;
+    line-height: 30px;
+  }
+  .homeTime {
+    position: relative;
+    right: -105px;
+    height: 30px;
+    line-height: 60px;
+  }
+  @media screen and (max-width: 320px) {
+    .homeTime {
+      position: relative;
+      right: -79px;
+      height: 30px;
+      line-height: 60px;
+    }
+    #nav p {
+      font-size: 12px;
+    }
+    .header {
+      font-size: 12px;
+    }
+  }
+  .header {
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #b6eaf7;
+    /* border-radius: 5px; */
+    height: 40px;
+    line-height: 40px;
+    /* color: white; */
+  }
+  .header div {
+    width: 20%;
+    text-align: center;
+  }
+  .is-center {
+    padding: 0;
+  }
+  .is-right {
+    padding: 0;
+  }
+  .nav a {
+    color: #000000;
+  }
+  
+  .show1 {
+    position: absolute;
+    color: #ccc;
+    bottom: -287px;
+    left: 128px;
+  }
+  .padding1 {
+    margin-bottom: 60px;
+  }
+  .Home {
+    /* display: flex;
+    flex-direction: row;  */
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 70px;
+    /* display: flex;
+    flex-direction: row; */
+  }
+  .contentHome {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+  .contentHome div {
+    width: 20%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: 12px;
+  }
+  #main {
+    width: 100vw;
+    height: 100%;
+  }
+  .aze img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .progress {
+    padding: 0 10px;
+    margin: 10px 0;
+  }
+  #containerHome {
+    width: 100%;
+    height: 200px;
+  }
+  .homeImag {
+    width: 60px;
+    height: 60px;
+  }
+  .homePm {
+    position: relative;
+    width: 20px;
+    top: -86px;
+    left: 12px;
+    color: #fff;
+    /* text-align: center; */
+    padding-left: 10px;
+    font-size: 26px;
+    line-height: 8px;
+  
+    /* float: left; */
+  }
+  .homePm p {
+    font-size: 16px;
+  }
+  .homePm span {
+    color: #6ed1f1;
+  }
+  .homeData {
+    position: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+  .flexHome div {
+    width: 33%;
+  }
+  .HomePM10 {
+    /* text-align: center; */
+    padding-left: 20px;
+    /* float: left; */
+    position: relative;
+    right: 5px;
+    top: -86px;
+    color: #fff;
+    width: 100vw;
+  }
+  .HomePM10 span {
+    line-height: 8px;
+    font-size: 26px;
+    color: #6ed1f1;
+  }
+  .HomePM10 p {
+    font-size: 16px;
+    line-height: 8px;
+  }
+  .flexHome {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 100%;
+  }
+  .homeCenter {
+    text-align: center;
+    position: relative;
+    top: -267px;
+    color: #fff;
+  }
+  .homeCenter span {
+    font-size: 16px;
+    position: relative;
+    top: -50px;
+  }
+  .homeCenter p {
+    font-size: 40px;
+  }
+  .homeCenter #rateNumber {
+    position: relative;
+    top: -57px;
+  }
+  #bottomFooter {
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    margin-right: 5px;
+  }
+  .homeImag37 {
+    position: absolute;
+    top: 167px;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  .HomenomalNumber {
+    /* padding-left: 10px; */
+    line-height: 10px;
+    text-align: center;
+  }
+  .HomenomalNumber span {
+    font-size: 26px;
+    line-height: 8px;
+    color: #6ed1f1;
+    /* text-align: center; */
+  }
+  
+  .homeImagHeader1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .homeImagHeader1 {
+    position: absolute;
+    top: 166px;
+    padding: 0 10px;
+    width: 100%;
+    height: auto;
+    color: white;
+  }
+  .homeweather {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+  .homeweather img {
+    width: 40px;
+    height: auto;
+  }
+  .weather {
+    text-align: center;
+    width: 60px;
+  }
+  .weather p {
+    line-height: 4px;
+  }
+  @media screen and (max-width: 321px) {
+    .homeweather img {
+      width: 40px;
+      height: auto;
+    }
+    .weather {
+      text-align: center;
+      width: 60px;
+    }
+    .weather p {
+      line-height: 4px;
+    }
+    #container {
+      height: 210px;
+    }
+    .homeImagHeader1 {
+      position: absolute;
+      top: 144px;
+      padding: 0 10px;
+      width: 100%;
+      height: auto;
+      color: white;
+    }
+    .homeCenter {
+      text-align: center;
+      position: relative;
+      top: -231px;
+      color: #fff;
+    }
+    .homeCenter span {
+      font-size: 16px;
+      position: relative;
+      top: -50px;
+    }
+    .homeCenter p {
+      font-size: 40px;
+    }
+    .homeCenter #rateNumber {
+      position: relative;
+      top: -57px;
+    }
+    .flexHome {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      top: 0;
+      height: auto;
+      width: 100%;
+      /* text-align: center; */
+    }
+    .flexHome div{
+      width: 33.33%;
+      margin-left: -5px;
+    }
+  }
+  @media (min-width: 321px) and (max-width: 375px) {
+    .homeweather img {
+      width: 60px;
+      height: auto;
+    }
+    .weather {
+      text-align: center;
+      width: 60px;
+    }
+    .weather p {
+      line-height: 4px;
+    }
+    #container {
+      height: 245px;
+    }
+    .homeImagHeader1 {
+      position: absolute;
+      top: 166px;
+      padding: 0 10px;
+      width: 100%;
+      height: auto;
+      color: white;
+    }
+  }
+  .homeImagHeader img {
+    border-bottom: rgb(235, 231, 231) solid 10px;
+  }
+  @media (min-width: 400px) and (max-width: 415px) {
+    .homeweather img {
+      width: 60px;
+      height: auto;
+    }
+    .weather {
+      text-align: center;
+      width: 60px;
+    }
+    .weather p {
+      line-height: 4px;
+    }
+    #container {
+      height: 266px;
+    }
+    .homeImagHeader1 {
+      position: absolute;
+      top: 184px;
+      padding: 0 10px;
+      width: 100%;
+      height: auto;
+      color: white;
+    }
+  }
+  .homeTimeWeather {
+    position: absolute;
+    top: 0;
+    color: white;
+  }
